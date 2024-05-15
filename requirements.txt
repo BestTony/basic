@@ -1,0 +1,2 @@
+seleniumbase>=4.24.0
+allure-pytestcd
