@@ -1,1 +1,1 @@
-FROM seleniumbaseRUN pip install -R requirements.txtCMD ["pytest","./TestCase/","--alluredir=./allure_results"]
+FROM seleniumbaseWORKDIR .RUN pip install -R requirements.txtCMD ["pytest","./TestCase/","--alluredir=./allure_results"]
